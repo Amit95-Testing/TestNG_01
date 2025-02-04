@@ -14,6 +14,8 @@ public class Demo1 {
 	@AfterMethod
 	public void afterMethod(){
 		System.out.println("After the methods");
+		System.out.println("After the methods one");	
+		System.out.println("After the methods one");
 	}
 	
 	@Test
