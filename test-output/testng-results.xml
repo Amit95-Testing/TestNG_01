@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T01:35:59 IST" name="Suite" finished-at="2024-07-17T01:35:59 IST" duration-ms="110">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T01:35:59 IST" name="Test" finished-at="2024-07-17T01:35:59 IST" duration-ms="110">
+      <class name="Dataprovider.student">
+        <test-method signature="Amity(java.lang.String,java.lang.String)[pri:0, instance:Dataprovider.student@5bda8e08]" started-at="2024-07-17T01:35:59 IST" name="Amity" data-provider="getData" finished-at="2024-07-17T01:35:59 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subject1Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[student1Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amity -->
+        <test-method signature="Amity(java.lang.String,java.lang.String)[pri:0, instance:Dataprovider.student@5bda8e08]" started-at="2024-07-17T01:35:59 IST" name="Amity" data-provider="getData" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subject2Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[student2Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amity -->
+        <test-method signature="Amity(java.lang.String,java.lang.String)[pri:0, instance:Dataprovider.student@5bda8e08]" started-at="2024-07-17T01:35:59 IST" name="Amity" data-provider="getData" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subject3Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[student3Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amity -->
+        <test-method signature="Lala()[pri:0, instance:Dataprovider.student@5bda8e08]" started-at="2024-07-17T01:35:59 IST" name="Lala" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lala -->
+        <test-method signature="Siya()[pri:0, instance:Dataprovider.student@5bda8e08]" started-at="2024-07-17T01:35:59 IST" name="Siya" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Siya -->
+      </class> <!-- Dataprovider.student -->
+      <class name="Exercises.Demo4">
+        <test-method signature="Mango()[pri:0, instance:Exercises.Demo4@3eb738bb]" started-at="2024-07-17T01:35:59 IST" name="Mango" finished-at="2024-07-17T01:35:59 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mango -->
+        <test-method signature="Peas(java.lang.String)[pri:0, instance:Exercises.Demo4@3eb738bb]" started-at="2024-07-17T01:35:59 IST" name="Peas" finished-at="2024-07-17T01:35:59 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Test on method Peas but has not been marked @Optional or defined
+in C:\Users\Amit Bind\eclipse-workspace\TestNG\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Test on method Peas but has not been marked @Optional or defined
+in C:\Users\Amit Bind\eclipse-workspace\TestNG\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Peas -->
+        <test-method signature="banana()[pri:0, instance:Exercises.Demo4@3eb738bb]" started-at="2024-07-17T01:35:59 IST" name="banana" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- banana -->
+      </class> <!-- Exercises.Demo4 -->
+      <class name="Dataprovider.Test2">
+        <test-method signature="English()[pri:0, instance:Dataprovider.Test2@229f66ed]" started-at="2024-07-17T01:35:59 IST" name="English" finished-at="2024-07-17T01:35:59 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- English -->
+        <test-method signature="Hindi()[pri:0, instance:Dataprovider.Test2@229f66ed]" started-at="2024-07-17T01:35:59 IST" name="Hindi" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hindi -->
+        <test-method signature="Marathi()[pri:0, instance:Dataprovider.Test2@229f66ed]" started-at="2024-07-17T01:35:59 IST" name="Marathi" finished-at="2024-07-17T01:35:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Marathi -->
+      </class> <!-- Dataprovider.Test2 -->
+      <class name="Dataprovider.Test1">
+        <test-method signature="Geography()[pri:0, instance:Dataprovider.Test1@233795b6]" started-at="2024-07-17T01:35:59 IST" name="Geography" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Geography -->
+        <test-method signature="History()[pri:0, instance:Dataprovider.Test1@233795b6]" started-at="2024-07-17T01:35:59 IST" name="History" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- History -->
+        <test-method signature="Science()[pri:0, instance:Dataprovider.Test1@233795b6]" started-at="2024-07-17T01:35:59 IST" name="Science" finished-at="2024-07-17T01:35:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Science -->
+      </class> <!-- Dataprovider.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
