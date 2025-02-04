@@ -22,9 +22,13 @@ public class Demo1 {
 	
 	public void Demo2() {
 		System.out.println("Bye");
+		System.out.println("After the methods one");	
+		System.out.println("After the methods one");
 	}
     @BeforeMethod
     public void beforeMethod() {
     	System.out.println("1st methods");
+    	System.out.println("After the methods one");	
+		System.out.println("After the methods one");
     }
 }
